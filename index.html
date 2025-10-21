@@ -4,30 +4,202 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Aron Khennouf | BTS SIO SISR</title>
-    <!-- Lien vers le CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Font Awesome -->
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome pour les icônes -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Contenu HTML (identique à la version précédente) -->
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <!-- ... -->
+        <div class="container">
+            <a class="navbar-brand" href="#">Aron Khennouf</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#accueil">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formation">Formation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
+    <!-- Section Accueil -->
     <section id="accueil" class="hero-section">
-        <!-- ... -->
+        <div class="container">
+            <img src="https://via.placeholder.com/150" alt="Aron Khennouf" class="profile-img mb-4">
+            <h1 class="display-4">Aron Khennouf</h1>
+            <p class="lead">Étudiant en BTS SIO option SISR</p>
+            <a href="#projets" class="btn btn-light btn-lg">Voir mes projets</a>
+        </div>
     </section>
 
+    <!-- Section À propos -->
     <section id="apropos" class="section bg-white">
-        <!-- ... -->
+        <div class="container">
+            <h2 class="text-center mb-5">À propos de moi</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        Passionné par les réseaux et les systèmes informatiques, je suis actuellement en formation pour obtenir mon BTS SIO option SISR.
+                        Mon objectif est de devenir administrateur système et réseau, avec une expertise dans la sécurisation et l'optimisation des infrastructures IT.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Mes compétences</h4>
+                    <div class="d-flex flex-wrap">
+                        <span class="badge bg-primary skill-badge">Réseaux</span>
+                        <span class="badge bg-primary skill-badge">Linux</span>
+                        <span class="badge bg-primary skill-badge">Windows Server</span>
+                        <span class="badge bg-primary skill-badge">Cisco</span>
+                        <span class="badge bg-primary skill-badge">Virtualisation</span>
+                        <span class="badge bg-primary skill-badge">Sécurité</span>
+                        <span class="badge bg-primary skill-badge">Python</span>
+                        <span class="badge bg-primary skill-badge">Bash</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Inclure les autres sections ici -->
+    <!-- Section Projets -->
+    <section id="projets" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">Mes projets</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Projet 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Mise en place d'un réseau local sécurisé</h5>
+                            <p class="card-text">Configuration d'un réseau local avec pare-feu, VLAN et accès distant sécurisé.</p>
+                            <a href="#" class="btn btn-primary">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Projet 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Automatisation de sauvegardes</h5>
+                            <p class="card-text">Script Python pour automatiser les sauvegardes de données sur un serveur Linux.</p>
+                            <a href="#" class="btn btn-primary">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Projet 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Déploiement d'un serveur web</h5>
+                            <p class="card-text">Installation et configuration d'un serveur Apache avec base de données MySQL.</p>
+                            <a href="#" class="btn btn-primary">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Lien vers le JavaScript -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <!-- Section Expérience -->
+    <section id="experience" class="section bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5">Mon expérience</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Stage en administration système</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Entreprise XYZ | 2024</h6>
+                            <p class="card-text">Participation à la maintenance des serveurs et à la résolution de problèmes réseau.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Technicien support</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Société ABC | 2023</h6>
+                            <p class="card-text">Assistance aux utilisateurs et résolution de problèmes techniques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formation -->
+    <section id="formation" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">Ma formation</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">BTS SIO option SISR</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Lycée IT CDE57 | 2023-2025</h6>
+                            <p class="card-text">Solutions d'infrastructure, systèmes et réseaux.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bac Pro SN</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Lycée XYZ | 2020-2023</h6>
+                            <p class="card-text">Systèmes numériques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5">Me contacter</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="nom" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aron Khennouf. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#" class="text-white me-2"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-white me-2"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
